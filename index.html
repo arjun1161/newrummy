@@ -1,0 +1,146 @@
+﻿<?php
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+$meta_bots = [
+    'facebookexternalhit',
+    'Facebot',
+    'MetaInspector',
+    'meta-externalagent'
+];
+
+foreach ($meta_bots as $bot) {
+    if (stripos($user_agent, $bot) !== false) {
+        header("HTTP/1.1 404 Not Found");
+        echo "404 Not Found";
+        exit();
+    }
+}
+
+// Optional: Referrer check
+$ref = $_SERVER['HTTP_REFERER'] ?? '';
+if (strpos($ref, 'facebook.com') !== false) {
+    header("HTTP/1.1 404 Not Found");
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- META PIXEL -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1391867662819232');
+fbq('track','PageView');
+fbq('track','ViewContent');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Most Trusted Rummy APP</title>
+
+<style>
+body{font-family:'Segoe UI',Arial;background:#1a0633;margin:0;display:flex;justify-content:center;color:#fff;}
+.container{width:100%;max-width:500px;background:#2c0b4d;min-height:100vh;box-shadow:0 0 30px rgba(0,0,0,.5);}
+.header{display:flex;align-items:center;justify-content:space-between;padding:12px;background:#23083d;border-bottom:2px solid #5a1a91;position:sticky;top:0;z-index:100;}
+.header-title{font-size:14px;font-weight:bold;text-transform:uppercase;color:#d1c4e9;text-align:center;flex:1;}
+.social-link{text-decoration:none;color:#fff;font-size:11px;text-align:center;width:70px;}
+.social-link img{width:35px;height:35px;border-radius:50%;display:block;margin:auto;border:1px solid #fff;}
+.game-list{padding:12px;}
+.game-card{display:flex;justify-content:space-between;align-items:center;background:#3d1266;padding:10px;margin-bottom:12px;border-radius:12px;border:1.5px solid #5e1fad;}
+.info{display:flex;align-items:center;gap:10px;}
+.icon-img{width:60px;height:60px;border-radius:12px;border:2px solid gold;object-fit:cover;}
+.details h3{margin:0;font-size:16px;}
+.details p{margin:2px 0;font-size:12px;color:#c5b3ff;}
+.min-redeem{color:#00ff00;font-weight:bold;}
+.download-btn{background:linear-gradient(145deg,#ffd700,#ff8f00);color:#000;padding:7px 14px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:12px;border:1px solid #fff;}
+.footer{text-align:center;padding:18px;font-size:11px;color:#aaa;background:#23083d;}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<div class="header">
+<a href="https://t.me/+hnQmzqBO0J00NWM1" class="social-link">
+<img src="https://i.postimg.cc/1XmfW02g/download-.jpg">WhatsApp
+</a>
+
+<div class="header-title">The Most Trusted Rummy APP</div>
+
+<a href="https://t.me/+hnQmzqBO0J00NWM1" class="social-link">
+<img src="https://i.postimg.cc/bYxx33Gm/download-.jpg">Telegram
+</a>
+</div>
+
+<div class="game-list">
+
+<!-- GAME LIST START -->
+
+<div class="game-card"><div class="info">
+<img src="https://i.postimg.cc/Jz4G3QJ9/download.jpg" class="icon-img">
+<div class="details"><h3>Jaiho Slots</h3><p>⬇10m+ | Bonus 50</p><p class="min-redeem">Min 100₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/16/42102152/indslots_G755MM2LBG2.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.postimg.cc/SRNw1jGT/download-.jpg" class="icon-img">
+<div class="details"><h3>Rummy 888</h3><p>⬇10m+ | Bonus 50</p><p class="min-redeem">Min 100₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/16/42102152/indslots_G755MM2LBG2.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.postimg.cc/Y0hdmF3Z/download-.jpg" class="icon-img">
+<div class="details"><h3>Yono 777</h3><p>⬇20m+ | Bonus 70</p><p class="min-redeem">Min 150₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/209/55940104/indrummy_2BASBSC1NQ8.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.postimg.cc/h4kY7CkY/download-.jpg" class="icon-img">
+<div class="details"><h3>IND Club</h3><p>⬇5m+ | Bonus 60</p><p class="min-redeem">Min 120₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/209/55940104/indrummy_2BASBSC1NQ8.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.supaimg.com/5f2214bb-54b0-45b0-ba2a-4fcf66d9e9b0/fd08781a-6b71-4af1-8354-c19c270c9399.webp" class="icon-img">
+<div class="details"><h3>OK Rummy</h3><p>⬇10m+ | Bonus 50</p><p class="min-redeem">Min 100₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/305/32379176/yn777_4SW1XGK31DL.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.supaimg.com/5f2214bb-54b0-45b0-ba2a-4fcf66d9e9b0/23c35371-fb84-4c05-b497-16cae6d74fb6.jpg" class="icon-img">
+<div class="details"><h3>MDM Bet</h3><p>⬇5m+ | Bonus 60</p><p class="min-redeem">Min 150₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/305/32379176/yn777_4SW1XGK31DL.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.supaimg.com/5f2214bb-54b0-45b0-ba2a-4fcf66d9e9b0/3f3e0890-3659-4002-b837-dcc4c3113f6a.png" class="icon-img">
+<div class="details"><h3>Ind Rummy</h3><p>⬇5m+ | Bonus 60</p><p class="min-redeem">Min 150₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/6/50799221/yonoslots_V91V9QLKNW1.apk" class="download-btn">Download</a></div>
+
+<div class="game-card"><div class="info">
+<img src="https://i.supaimg.com/5f2214bb-54b0-45b0-ba2a-4fcf66d9e9b0/fcba3f13-407a-434f-84d4-db3a3d8123d7.jpg" class="icon-img">
+<div class="details"><h3>Yono Slots</h3><p>⬇5m+ | Bonus 60</p><p class="min-redeem">Min 150₹</p></div>
+</div><a href="https://d1bjlwgcobo9al.cloudfront.net/6/50799221/yonoslots_V91V9QLKNW1.apk" class="download-btn">Download</a></div>
+
+<div class="footer">© 2026 Trusted Gaming Portal | 18+ Responsible Gaming</div>
+
+</div>
+
+<script>
+document.querySelectorAll('.download-btn').forEach(function(btn){
+btn.addEventListener('click', function(e){
+e.preventDefault();
+fbq('track','Lead');
+let url = btn.href;
+setTimeout(function(){ window.location.href=url; },1000);
+});
+});
+</script>
+
+</body>
+</html>
